@@ -19,7 +19,166 @@
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 25,
+            "total_statements": 99,
+            "total_words": 14082,
+            "avg_statements_per_session": 4.0,
+            "avg_words_per_session": 563,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 9,
+                "words": 1502
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 3,
+                "words": 244
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 3,
+                "words": 183
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 28
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 87
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 6,
+                "words": 1938
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 362
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 9,
+                "words": 862
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 653
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 103
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 3,
+                "words": 388
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 3,
+                "words": 124
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 5,
+                "words": 967
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 14
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 7,
+                "words": 2811
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 3,
+                "words": 280
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 317
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 9,
+                "words": 331
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 351
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 90
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 7,
+                "words": 890
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 15
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 13
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 4,
+                "words": 444
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 14,
+                "words": 1085
+              }
+            ]
+          }
         }
       }
     },
@@ -67,7 +226,178 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 27,
+            "total_statements": 1752,
+            "total_words": 225070,
+            "avg_statements_per_session": 64.9,
+            "avg_words_per_session": 8336,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 1,
+                "words": 118
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 58,
+                "words": 6788
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 69,
+                "words": 10040
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 193,
+                "words": 30619
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 3,
+                "words": 320
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 195
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 148,
+                "words": 14768
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 41,
+                "words": 8098
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 150,
+                "words": 20931
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 43,
+                "words": 8710
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 137
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 163,
+                "words": 23676
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 561
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 72,
+                "words": 7469
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 116,
+                "words": 15898
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 122,
+                "words": 16332
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 3,
+                "words": 195
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 51,
+                "words": 4447
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 8,
+                "words": 1223
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 3,
+                "words": 125
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 181,
+                "words": 21899
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 48,
+                "words": 3788
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 39,
+                "words": 1945
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 67,
+                "words": 8234
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 103,
+                "words": 9918
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 64,
+                "words": 8544
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 92
+              }
+            ]
+          }
         }
       }
     },
@@ -231,7 +561,154 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 23,
+            "total_statements": 54,
+            "total_words": 9988,
+            "avg_statements_per_session": 2.3,
+            "avg_words_per_session": 434,
+            "sessions": [
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 3,
+                "words": 358
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 7,
+                "words": 455
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 4,
+                "words": 479
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 2,
+                "words": 188
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 2,
+                "words": 230
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 88
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 3,
+                "words": 601
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 3,
+                "words": 850
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 627
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 111
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 617
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 32
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 162
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 1,
+                "words": 186
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 2,
+                "words": 441
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 5,
+                "words": 864
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 252
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 4,
+                "words": 883
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 118
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 2,
+                "words": 1450
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 2,
+                "words": 125
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 3,
+                "words": 670
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 201
+              }
+            ]
+          }
         }
       }
     },
@@ -269,7 +746,136 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 20,
+            "total_statements": 82,
+            "total_words": 18470,
+            "avg_statements_per_session": 4.1,
+            "avg_words_per_session": 924,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 2,
+                "words": 32
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 3,
+                "words": 685
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 4,
+                "words": 1159
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 7,
+                "words": 786
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 5,
+                "words": 1081
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 350
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 4,
+                "words": 1256
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 5,
+                "words": 1185
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 334
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 346
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 3,
+                "words": 194
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 2,
+                "words": 531
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 5,
+                "words": 2371
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 3,
+                "words": 633
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 7,
+                "words": 1066
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 4,
+                "words": 715
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 5,
+                "words": 2766
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 5,
+                "words": 974
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 13,
+                "words": 1636
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 370
+              }
+            ]
+          }
         }
       }
     },
@@ -300,7 +906,58 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 7,
+            "total_statements": 11,
+            "total_words": 5009,
+            "avg_statements_per_session": 1.6,
+            "avg_words_per_session": 716,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 33
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 144
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 169
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 177
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 15
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 2,
+                "words": 3311
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 1160
+              }
+            ]
+          }
         }
       }
     },
@@ -467,7 +1124,196 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 30,
+            "total_statements": 936,
+            "total_words": 141158,
+            "avg_statements_per_session": 31.2,
+            "avg_words_per_session": 4705,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 1,
+                "words": 81
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 42,
+                "words": 4025
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 139,
+                "words": 15238
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 73,
+                "words": 12043
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 751
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 7,
+                "words": 1727
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 784
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 181,
+                "words": 18741
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 3,
+                "words": 1900
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 16,
+                "words": 5349
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 74,
+                "words": 9575
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 44,
+                "words": 6654
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 6,
+                "words": 2414
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 149,
+                "words": 17379
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 14,
+                "words": 1886
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 3,
+                "words": 794
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 9,
+                "words": 2230
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 4,
+                "words": 1252
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 6,
+                "words": 886
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 17,
+                "words": 3879
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 2,
+                "words": 557
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 4,
+                "words": 868
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 3,
+                "words": 997
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 4,
+                "words": 1004
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 4,
+                "words": 2221
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 68,
+                "words": 13404
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 7,
+                "words": 1755
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 901
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 3,
+                "words": 801
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 47,
+                "words": 11062
+              }
+            ]
+          }
         }
       }
     },
@@ -596,7 +1442,160 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 24,
+            "total_statements": 88,
+            "total_words": 12240,
+            "avg_statements_per_session": 3.7,
+            "avg_words_per_session": 510,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 1,
+                "words": 404
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 1,
+                "words": 225
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 7,
+                "words": 293
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 3,
+                "words": 167
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 217
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 9,
+                "words": 460
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 5,
+                "words": 1152
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 271
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 134
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 5,
+                "words": 1240
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 3,
+                "words": 232
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 3,
+                "words": 192
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 69
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 4,
+                "words": 624
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 8,
+                "words": 865
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 1,
+                "words": 337
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 7,
+                "words": 1699
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 2,
+                "words": 291
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 103
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 6,
+                "words": 992
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 4,
+                "words": 707
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 382
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 7,
+                "words": 922
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 3,
+                "words": 262
+              }
+            ]
+          }
         }
       }
     },
@@ -641,7 +1640,100 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 14,
+            "total_statements": 28,
+            "total_words": 3388,
+            "avg_statements_per_session": 2.0,
+            "avg_words_per_session": 242,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 54
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 1,
+                "words": 259
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 134
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 2,
+                "words": 495
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 4,
+                "words": 330
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 53
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 159
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 141
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 3,
+                "words": 537
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 3,
+                "words": 381
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 5,
+                "words": 338
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 12
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 79
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 3,
+                "words": 416
+              }
+            ]
+          }
         }
       }
     },
@@ -806,7 +1898,100 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 14,
+            "total_statements": 39,
+            "total_words": 7570,
+            "avg_statements_per_session": 2.8,
+            "avg_words_per_session": 541,
+            "sessions": [
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 348
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 301
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 59
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 542
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 285
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 3,
+                "words": 1185
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 212
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 3,
+                "words": 859
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 6,
+                "words": 443
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 425
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 5,
+                "words": 980
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 411
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 6,
+                "words": 1212
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 308
+              }
+            ]
+          }
         }
       }
     },
@@ -970,7 +2155,130 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 19,
+            "total_statements": 44,
+            "total_words": 10992,
+            "avg_statements_per_session": 2.3,
+            "avg_words_per_session": 579,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 1,
+                "words": 43
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 2,
+                "words": 534
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 1,
+                "words": 561
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 1,
+                "words": 326
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 3,
+                "words": 431
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 486
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 563
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 257
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 5,
+                "words": 1002
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 4,
+                "words": 931
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 414
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 397
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 297
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 1,
+                "words": 614
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 492
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 8,
+                "words": 1134
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 4,
+                "words": 765
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 2,
+                "words": 1049
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 3,
+                "words": 696
+              }
+            ]
+          }
         }
       }
     },
@@ -1043,7 +2351,142 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 21,
+            "total_statements": 54,
+            "total_words": 11073,
+            "avg_statements_per_session": 2.6,
+            "avg_words_per_session": 527,
+            "sessions": [
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 6,
+                "words": 1086
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 4,
+                "words": 848
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 183
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 4,
+                "words": 730
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 6,
+                "words": 1134
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 421
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 212
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 168
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 457
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 4,
+                "words": 944
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 489
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 4,
+                "words": 635
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 2,
+                "words": 306
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 317
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 333
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 3,
+                "words": 505
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 130
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 2,
+                "words": 227
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 3,
+                "words": 840
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 703
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 405
+              }
+            ]
+          }
         }
       }
     },
@@ -1095,7 +2538,88 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 12,
+            "total_statements": 88,
+            "total_words": 2659,
+            "avg_statements_per_session": 7.3,
+            "avg_words_per_session": 222,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 21
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 5,
+                "words": 345
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 51
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 54,
+                "words": 478
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 10,
+                "words": 1007
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 27
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 3,
+                "words": 67
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 3,
+                "words": 124
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 27
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 18
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 5,
+                "words": 441
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 53
+              }
+            ]
+          }
         }
       }
     },
@@ -1140,7 +2664,106 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 15,
+            "total_statements": 69,
+            "total_words": 30950,
+            "avg_statements_per_session": 4.6,
+            "avg_words_per_session": 2063,
+            "sessions": [
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 7,
+                "words": 1497
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 1,
+                "words": 2130
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 2,
+                "words": 371
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 76
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 5,
+                "words": 1657
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 285
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 1,
+                "words": 17
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 6,
+                "words": 3407
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 457
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 7,
+                "words": 5425
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 8,
+                "words": 5062
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 17,
+                "words": 3883
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 6,
+                "words": 5175
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 1,
+                "words": 222
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 5,
+                "words": 1286
+              }
+            ]
+          }
         }
       }
     },
@@ -1304,7 +2927,124 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 18,
+            "total_statements": 37,
+            "total_words": 9256,
+            "avg_statements_per_session": 2.1,
+            "avg_words_per_session": 514,
+            "sessions": [
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 2,
+                "words": 487
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 84
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 672
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 637
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 1267
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 105
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 632
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 386
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 206
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 4,
+                "words": 942
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 2,
+                "words": 442
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 3,
+                "words": 581
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 2,
+                "words": 392
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 4,
+                "words": 1012
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 2,
+                "words": 578
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 183
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 525
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 125
+              }
+            ]
+          }
         }
       }
     },
@@ -1471,7 +3211,220 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 34,
+            "total_statements": 2087,
+            "total_words": 260116,
+            "avg_statements_per_session": 61.4,
+            "avg_words_per_session": 7650,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 27,
+                "words": 1788
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 39,
+                "words": 3613
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 4,
+                "words": 769
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 43,
+                "words": 5949
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 6,
+                "words": 794
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 141,
+                "words": 22998
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 273
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 72,
+                "words": 12851
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 3,
+                "words": 133
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 161
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 95,
+                "words": 7519
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 3,
+                "words": 752
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 154
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 116,
+                "words": 11308
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 71,
+                "words": 5221
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 43,
+                "words": 8072
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 44,
+                "words": 5396
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 85,
+                "words": 15205
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 5,
+                "words": 728
+              },
+              {
+                "date": "2025-05-27",
+                "session": "",
+                "statements": 7,
+                "words": 5808
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 134,
+                "words": 16335
+              },
+              {
+                "date": "2025-06-05",
+                "session": "",
+                "statements": 3,
+                "words": 1988
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 222,
+                "words": 19833
+              },
+              {
+                "date": "2025-07-03",
+                "session": "",
+                "statements": 6,
+                "words": 4646
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 2,
+                "words": 537
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 122,
+                "words": 20233
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 132,
+                "words": 8280
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 142,
+                "words": 21176
+              },
+              {
+                "date": "2025-11-19",
+                "session": "XLI",
+                "statements": 4,
+                "words": 3793
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 168,
+                "words": 21599
+              },
+              {
+                "date": "2025-12-10",
+                "session": "",
+                "statements": 7,
+                "words": 1933
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 123,
+                "words": 11313
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 40,
+                "words": 3878
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 174,
+                "words": 15080
+              }
+            ]
+          }
         }
       }
     },
@@ -1586,7 +3539,106 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 15,
+            "total_statements": 31,
+            "total_words": 5035,
+            "avg_statements_per_session": 2.1,
+            "avg_words_per_session": 336,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 3,
+                "words": 206
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 4,
+                "words": 679
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 81
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 315
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 1484
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 1,
+                "words": 58
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 3,
+                "words": 503
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 11
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 113
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 2,
+                "words": 236
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 3,
+                "words": 534
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 77
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 130
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 273
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 4,
+                "words": 335
+              }
+            ]
+          }
         }
       }
     },
@@ -1617,7 +3669,124 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 18,
+            "total_statements": 28,
+            "total_words": 7340,
+            "avg_statements_per_session": 1.6,
+            "avg_words_per_session": 408,
+            "sessions": [
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 1,
+                "words": 499
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 3,
+                "words": 578
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 317
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 472
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 381
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 226
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 172
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 2,
+                "words": 309
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 3,
+                "words": 626
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 555
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 159
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 2,
+                "words": 288
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 412
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 755
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 97
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 213
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 2,
+                "words": 738
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 2,
+                "words": 543
+              }
+            ]
+          }
         }
       }
     },
@@ -1711,7 +3880,118 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 17,
+            "total_statements": 39,
+            "total_words": 8452,
+            "avg_statements_per_session": 2.3,
+            "avg_words_per_session": 497,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 2,
+                "words": 545
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 47
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 288
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 4,
+                "words": 712
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 5,
+                "words": 1026
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 430
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 1,
+                "words": 95
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 294
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 2,
+                "words": 177
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 1,
+                "words": 128
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 351
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 393
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 4,
+                "words": 890
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 4,
+                "words": 838
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 346
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 410
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 5,
+                "words": 1482
+              }
+            ]
+          }
         }
       }
     },
@@ -1875,7 +4155,166 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 25,
+            "total_statements": 82,
+            "total_words": 12875,
+            "avg_statements_per_session": 3.3,
+            "avg_words_per_session": 515,
+            "sessions": [
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 4,
+                "words": 164
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 1,
+                "words": 40
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 5,
+                "words": 884
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 123
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 94
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 4,
+                "words": 678
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 598
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 131
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 4,
+                "words": 804
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 253
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 160
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 2,
+                "words": 398
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 6,
+                "words": 1034
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 4,
+                "words": 561
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 2,
+                "words": 312
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 2,
+                "words": 153
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 286
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 3,
+                "words": 288
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 3,
+                "words": 196
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 3,
+                "words": 758
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 145
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 8,
+                "words": 2256
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 2,
+                "words": 158
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 4,
+                "words": 167
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 12,
+                "words": 2234
+              }
+            ]
+          }
         }
       }
     },
@@ -1990,7 +4429,142 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 21,
+            "total_statements": 68,
+            "total_words": 11209,
+            "avg_statements_per_session": 3.2,
+            "avg_words_per_session": 534,
+            "sessions": [
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 5,
+                "words": 690
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 5,
+                "words": 968
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 6,
+                "words": 333
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 204
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 109
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 3,
+                "words": 637
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 585
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 633
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 492
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 367
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 5,
+                "words": 1070
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 585
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 255
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 370
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 4,
+                "words": 501
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 508
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 3,
+                "words": 719
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 6,
+                "words": 526
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 7,
+                "words": 475
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 5,
+                "words": 618
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 3,
+                "words": 564
+              }
+            ]
+          }
         }
       }
     },
@@ -2157,7 +4731,202 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 31,
+            "total_statements": 1018,
+            "total_words": 171190,
+            "avg_statements_per_session": 32.8,
+            "avg_words_per_session": 5522,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 1,
+                "words": 134
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 28
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 1,
+                "words": 302
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 2,
+                "words": 91
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 10,
+                "words": 4386
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 188,
+                "words": 29028
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 9,
+                "words": 3294
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 13,
+                "words": 4347
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 13,
+                "words": 3531
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 11,
+                "words": 2778
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 200,
+                "words": 27787
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 164
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 9,
+                "words": 1834
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 46,
+                "words": 9666
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 81,
+                "words": 19104
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 16,
+                "words": 2946
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 9,
+                "words": 2245
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 18,
+                "words": 2177
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 6,
+                "words": 1679
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 75,
+                "words": 7036
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 4,
+                "words": 529
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 69,
+                "words": 6548
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 7,
+                "words": 1474
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 6,
+                "words": 1016
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 41,
+                "words": 7248
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 9,
+                "words": 3007
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 7,
+                "words": 1177
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 15,
+                "words": 4034
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 13,
+                "words": 3341
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 125,
+                "words": 16298
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 12,
+                "words": 3961
+              }
+            ]
+          }
         }
       }
     },
@@ -2180,7 +4949,106 @@
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 15,
+            "total_statements": 35,
+            "total_words": 3064,
+            "avg_statements_per_session": 2.3,
+            "avg_words_per_session": 204,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 19
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 2,
+                "words": 43
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 65
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 3,
+                "words": 171
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 6,
+                "words": 237
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 3,
+                "words": 441
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 4,
+                "words": 268
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 2,
+                "words": 56
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 38
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 133
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 1,
+                "words": 692
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 63
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 3,
+                "words": 302
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 500
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 1,
+                "words": 36
+              }
+            ]
+          }
         }
       }
     },
@@ -2344,7 +5212,202 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 31,
+            "total_statements": 114,
+            "total_words": 27880,
+            "avg_statements_per_session": 3.7,
+            "avg_words_per_session": 899,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 3,
+                "words": 288
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 7,
+                "words": 2050
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 3,
+                "words": 682
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 4,
+                "words": 1137
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 6,
+                "words": 992
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 3,
+                "words": 828
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 3,
+                "words": 707
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 780
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 9,
+                "words": 977
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 5,
+                "words": 1114
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 380
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 5,
+                "words": 1762
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 72
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 575
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 247
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 1687
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 3,
+                "words": 89
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 4,
+                "words": 557
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 5,
+                "words": 850
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 2,
+                "words": 490
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 5,
+                "words": 801
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 5,
+                "words": 935
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 3,
+                "words": 3862
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 4,
+                "words": 442
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 412
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 3,
+                "words": 881
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 76
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 5,
+                "words": 2388
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 7,
+                "words": 1024
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 3,
+                "words": 561
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 4,
+                "words": 234
+              }
+            ]
+          }
         }
       }
     },
@@ -2375,7 +5438,100 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 14,
+            "total_statements": 33,
+            "total_words": 4245,
+            "avg_statements_per_session": 2.4,
+            "avg_words_per_session": 303,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 17
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 1,
+                "words": 106
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 1,
+                "words": 249
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 3,
+                "words": 695
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 3,
+                "words": 135
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 45
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 3,
+                "words": 555
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 147
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 3,
+                "words": 628
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 4,
+                "words": 179
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 143
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 14
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 4,
+                "words": 648
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 4,
+                "words": 684
+              }
+            ]
+          }
         }
       }
     },
@@ -2413,7 +5569,136 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 20,
+            "total_statements": 53,
+            "total_words": 10090,
+            "avg_statements_per_session": 2.6,
+            "avg_words_per_session": 504,
+            "sessions": [
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 1,
+                "words": 185
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 2,
+                "words": 647
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 380
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 293
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 277
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 213
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 7,
+                "words": 1114
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 4,
+                "words": 743
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 3,
+                "words": 1200
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 111
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 5,
+                "words": 943
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 632
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 2,
+                "words": 172
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 6,
+                "words": 617
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 433
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 5,
+                "words": 903
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 440
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 2,
+                "words": 80
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 3,
+                "words": 571
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 136
+              }
+            ]
+          }
         }
       }
     },
@@ -2577,7 +5862,28 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 2,
+            "total_statements": 3,
+            "total_words": 188,
+            "avg_statements_per_session": 1.5,
+            "avg_words_per_session": 94,
+            "sessions": [
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 70
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 118
+              }
+            ]
+          }
         }
       }
     },
@@ -2741,7 +6047,202 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 31,
+            "total_statements": 180,
+            "total_words": 44858,
+            "avg_statements_per_session": 5.8,
+            "avg_words_per_session": 1447,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 2,
+                "words": 137
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 8,
+                "words": 206
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 8,
+                "words": 3042
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 3,
+                "words": 350
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 12,
+                "words": 2500
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 7,
+                "words": 1513
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 7,
+                "words": 1308
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 9,
+                "words": 966
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 6,
+                "words": 1573
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 6,
+                "words": 1809
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 3309
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 554
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 382
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 5,
+                "words": 1873
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 4,
+                "words": 1574
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 2,
+                "words": 563
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 3,
+                "words": 1472
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 4,
+                "words": 1607
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 4,
+                "words": 1353
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 8,
+                "words": 1591
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 3,
+                "words": 641
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 5,
+                "words": 269
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 477
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 3,
+                "words": 891
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 3,
+                "words": 1771
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 7,
+                "words": 1176
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 14,
+                "words": 3057
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 7,
+                "words": 2547
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 14,
+                "words": 2983
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 11,
+                "words": 1835
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 6,
+                "words": 1529
+              }
+            ]
+          }
         }
       }
     },
@@ -2828,7 +6329,160 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 24,
+            "total_statements": 79,
+            "total_words": 13199,
+            "avg_statements_per_session": 3.3,
+            "avg_words_per_session": 550,
+            "sessions": [
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 4,
+                "words": 1274
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 2,
+                "words": 604
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 132
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 244
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 2,
+                "words": 428
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 371
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 58
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 143
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 305
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 2,
+                "words": 513
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 2,
+                "words": 299
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 1,
+                "words": 116
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 79
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 4,
+                "words": 589
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 3,
+                "words": 370
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 4,
+                "words": 369
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 252
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 7,
+                "words": 1961
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 113
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 5,
+                "words": 479
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 6,
+                "words": 910
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 11,
+                "words": 1731
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 5,
+                "words": 781
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 8,
+                "words": 1078
+              }
+            ]
+          }
         }
       }
     },
@@ -2936,7 +6590,184 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 28,
+            "total_statements": 128,
+            "total_words": 19749,
+            "avg_statements_per_session": 4.6,
+            "avg_words_per_session": 705,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 2,
+                "words": 166
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 6,
+                "words": 659
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 5,
+                "words": 698
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 5,
+                "words": 299
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 8,
+                "words": 1710
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 8,
+                "words": 1884
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 5,
+                "words": 2006
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 4,
+                "words": 421
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 8,
+                "words": 532
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 7,
+                "words": 956
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 3,
+                "words": 743
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 5,
+                "words": 1187
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 393
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 4,
+                "words": 1335
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 7,
+                "words": 480
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 177
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 6,
+                "words": 527
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 2,
+                "words": 315
+              },
+              {
+                "date": "2025-05-16",
+                "session": "XXVI",
+                "statements": 2,
+                "words": 66
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 3,
+                "words": 378
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 5,
+                "words": 851
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 5,
+                "words": 608
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 62
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 7,
+                "words": 675
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 6,
+                "words": 1023
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 2,
+                "words": 586
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 8,
+                "words": 677
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 335
+              }
+            ]
+          }
         }
       }
     },
@@ -3100,7 +6931,34 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 3,
+            "total_statements": 6,
+            "total_words": 396,
+            "avg_statements_per_session": 2.0,
+            "avg_words_per_session": 132,
+            "sessions": [
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 1,
+                "words": 84
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 4,
+                "words": 182
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 130
+              }
+            ]
+          }
         }
       }
     },
@@ -3138,7 +6996,118 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 17,
+            "total_statements": 36,
+            "total_words": 5681,
+            "avg_statements_per_session": 2.1,
+            "avg_words_per_session": 334,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 31
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 6,
+                "words": 254
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 107
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 612
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 2,
+                "words": 416
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 263
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 231
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 3,
+                "words": 597
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 6,
+                "words": 776
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 2,
+                "words": 156
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 355
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 203
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 3,
+                "words": 555
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 2,
+                "words": 96
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 2,
+                "words": 286
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 2,
+                "words": 398
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 345
+              }
+            ]
+          }
         }
       }
     },
@@ -3211,7 +7180,166 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 25,
+            "total_statements": 67,
+            "total_words": 15099,
+            "avg_statements_per_session": 2.7,
+            "avg_words_per_session": 604,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 24,
+                "words": 3783
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 46
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 3,
+                "words": 1283
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 2,
+                "words": 571
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 414
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 337
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 527
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 171
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 2,
+                "words": 521
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 367
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 181
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 4,
+                "words": 992
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 102
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 359
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 4,
+                "words": 620
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 114
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 495
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 2,
+                "words": 518
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 440
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 3,
+                "words": 598
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 2,
+                "words": 523
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 158
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 3,
+                "words": 1234
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 1,
+                "words": 548
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 2,
+                "words": 197
+              }
+            ]
+          }
         }
       }
     },
@@ -3242,7 +7370,142 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 21,
+            "total_statements": 42,
+            "total_words": 5555,
+            "avg_statements_per_session": 2.0,
+            "avg_words_per_session": 265,
+            "sessions": [
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 1,
+                "words": 55
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 2,
+                "words": 256
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 4,
+                "words": 128
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 3,
+                "words": 216
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 258
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 74
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 398
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 1,
+                "words": 148
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 2,
+                "words": 41
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 232
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 81
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 1,
+                "words": 194
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 2,
+                "words": 212
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 70
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 789
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 1,
+                "words": 142
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 26
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 4,
+                "words": 235
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 541
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 5,
+                "words": 1280
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 179
+              }
+            ]
+          }
         }
       }
     },
@@ -3280,7 +7543,58 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 7,
+            "total_statements": 12,
+            "total_words": 1849,
+            "avg_statements_per_session": 1.7,
+            "avg_words_per_session": 264,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 16
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 1,
+                "words": 48
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 137
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 12
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 4,
+                "words": 542
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 355
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 3,
+                "words": 739
+              }
+            ]
+          }
         }
       }
     },
@@ -3444,7 +7758,112 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 16,
+            "total_statements": 30,
+            "total_words": 7034,
+            "avg_statements_per_session": 1.9,
+            "avg_words_per_session": 440,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 4,
+                "words": 220
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 5,
+                "words": 1434
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 81
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 830
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 1,
+                "words": 355
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 1,
+                "words": 224
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 3,
+                "words": 760
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 458
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 2,
+                "words": 464
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 157
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 1,
+                "words": 80
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 1,
+                "words": 341
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 1,
+                "words": 460
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 1,
+                "words": 113
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 652
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 405
+              }
+            ]
+          }
         }
       }
     },
@@ -3608,7 +8027,178 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 27,
+            "total_statements": 312,
+            "total_words": 98800,
+            "avg_statements_per_session": 11.6,
+            "avg_words_per_session": 3659,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 12,
+                "words": 2137
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 16,
+                "words": 4454
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 8,
+                "words": 4939
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 6,
+                "words": 4303
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 10,
+                "words": 3850
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 12,
+                "words": 5714
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 15,
+                "words": 4374
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 13,
+                "words": 3936
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 4,
+                "words": 1102
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 8,
+                "words": 4732
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 12,
+                "words": 3631
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 9,
+                "words": 1419
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 11,
+                "words": 2584
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 8,
+                "words": 1667
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 10,
+                "words": 1570
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 3,
+                "words": 1067
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 11,
+                "words": 2669
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 3,
+                "words": 763
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 18,
+                "words": 5870
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 24,
+                "words": 5920
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 25,
+                "words": 3829
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 22,
+                "words": 7195
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 11,
+                "words": 3000
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 14,
+                "words": 8481
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 13,
+                "words": 6451
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 12,
+                "words": 2945
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 2,
+                "words": 198
+              }
+            ]
+          }
         }
       }
     },
@@ -3631,7 +8221,202 @@
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 31,
+            "total_statements": 331,
+            "total_words": 79785,
+            "avg_statements_per_session": 10.7,
+            "avg_words_per_session": 2574,
+            "sessions": [
+              {
+                "date": "2024-05-07",
+                "session": "I",
+                "statements": 5,
+                "words": 240
+              },
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 9,
+                "words": 895
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 32,
+                "words": 4339
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 5,
+                "words": 1141
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 16,
+                "words": 4313
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 10,
+                "words": 2232
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 10,
+                "words": 4692
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 13,
+                "words": 2989
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 12,
+                "words": 2471
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 13,
+                "words": 2487
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 2,
+                "words": 783
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 3,
+                "words": 770
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 5,
+                "words": 4678
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 14,
+                "words": 4114
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 19,
+                "words": 3558
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 7,
+                "words": 1511
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 17,
+                "words": 3578
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 5,
+                "words": 1523
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 3,
+                "words": 831
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 1,
+                "words": 106
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 9,
+                "words": 2704
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 7,
+                "words": 1606
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 9,
+                "words": 3962
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 14,
+                "words": 3421
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 17,
+                "words": 2815
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 7,
+                "words": 2399
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 17,
+                "words": 4341
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 11,
+                "words": 4559
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 12,
+                "words": 2216
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 11,
+                "words": 2429
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 16,
+                "words": 2082
+              }
+            ]
+          }
         }
       }
     },
@@ -3676,7 +8461,106 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 15,
+            "total_statements": 36,
+            "total_words": 2650,
+            "avg_statements_per_session": 2.4,
+            "avg_words_per_session": 177,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 2,
+                "words": 38
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 3,
+                "words": 353
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 103
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 6,
+                "words": 297
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 3,
+                "words": 300
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 2,
+                "words": 210
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 1,
+                "words": 77
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 27
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 1,
+                "words": 39
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 4,
+                "words": 139
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 3,
+                "words": 434
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 2,
+                "words": 89
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 26
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 3,
+                "words": 167
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 351
+              }
+            ]
+          }
         }
       }
     },
@@ -3840,7 +8724,112 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 16,
+            "total_statements": 49,
+            "total_words": 9718,
+            "avg_statements_per_session": 3.1,
+            "avg_words_per_session": 607,
+            "sessions": [
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 2,
+                "words": 230
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 5,
+                "words": 662
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 4,
+                "words": 1070
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 339
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 162
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 334
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 3,
+                "words": 521
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 2,
+                "words": 436
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 3,
+                "words": 716
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 3,
+                "words": 358
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 4,
+                "words": 566
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 4,
+                "words": 690
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 3,
+                "words": 884
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 5,
+                "words": 1318
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 2,
+                "words": 660
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 5,
+                "words": 772
+              }
+            ]
+          }
         }
       }
     },
@@ -3863,7 +8852,160 @@
           "rebellion_count": 0,
           "rebellions": [],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 24,
+            "total_statements": 118,
+            "total_words": 24543,
+            "avg_statements_per_session": 4.9,
+            "avg_words_per_session": 1023,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 119
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 4,
+                "words": 744
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 2,
+                "words": 463
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 5,
+                "words": 793
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 229
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 2,
+                "words": 400
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 94
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 9,
+                "words": 1641
+              },
+              {
+                "date": "2024-11-20",
+                "session": "XIV",
+                "statements": 2,
+                "words": 839
+              },
+              {
+                "date": "2024-12-04",
+                "session": "XVI",
+                "statements": 2,
+                "words": 747
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 2,
+                "words": 195
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 6,
+                "words": 1946
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 6,
+                "words": 1461
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 2,
+                "words": 611
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 3,
+                "words": 530
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 9,
+                "words": 872
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 4,
+                "words": 763
+              },
+              {
+                "date": "2025-08-27",
+                "session": "XXXV",
+                "statements": 8,
+                "words": 3010
+              },
+              {
+                "date": "2025-10-23",
+                "session": "XXXVIII",
+                "statements": 2,
+                "words": 732
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 21,
+                "words": 3756
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 5,
+                "words": 1548
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 3,
+                "words": 123
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 8,
+                "words": 1496
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 10,
+                "words": 1431
+              }
+            ]
+          }
         }
       }
     },
@@ -3985,7 +9127,28 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 2,
+            "total_statements": 2,
+            "total_words": 306,
+            "avg_statements_per_session": 1.0,
+            "avg_words_per_session": 153,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 165
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 1,
+                "words": 141
+              }
+            ]
+          }
         }
       }
     },
@@ -4149,7 +9312,172 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 26,
+            "total_statements": 86,
+            "total_words": 16795,
+            "avg_statements_per_session": 3.3,
+            "avg_words_per_session": 646,
+            "sessions": [
+              {
+                "date": "2024-05-22",
+                "session": "II",
+                "statements": 1,
+                "words": 112
+              },
+              {
+                "date": "2024-06-05",
+                "session": "IV",
+                "statements": 7,
+                "words": 591
+              },
+              {
+                "date": "2024-06-19",
+                "session": "V",
+                "statements": 1,
+                "words": 106
+              },
+              {
+                "date": "2024-07-03",
+                "session": "VII",
+                "statements": 2,
+                "words": 514
+              },
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 511
+              },
+              {
+                "date": "2024-09-11",
+                "session": "IX",
+                "statements": 2,
+                "words": 1849
+              },
+              {
+                "date": "2024-09-25",
+                "session": "X",
+                "statements": 1,
+                "words": 212
+              },
+              {
+                "date": "2024-10-09",
+                "session": "XI",
+                "statements": 1,
+                "words": 86
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 7,
+                "words": 1054
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 4,
+                "words": 732
+              },
+              {
+                "date": "2025-01-15",
+                "session": "XVIII",
+                "statements": 2,
+                "words": 705
+              },
+              {
+                "date": "2025-02-26",
+                "session": "XX",
+                "statements": 1,
+                "words": 269
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 236
+              },
+              {
+                "date": "2025-03-26",
+                "session": "XXII",
+                "statements": 1,
+                "words": 129
+              },
+              {
+                "date": "2025-04-09",
+                "session": "XXIII",
+                "statements": 1,
+                "words": 118
+              },
+              {
+                "date": "2025-04-23",
+                "session": "XXIV",
+                "statements": 3,
+                "words": 588
+              },
+              {
+                "date": "2025-05-07",
+                "session": "XXV",
+                "statements": 2,
+                "words": 521
+              },
+              {
+                "date": "2025-05-21",
+                "session": "XXVIII",
+                "statements": 6,
+                "words": 852
+              },
+              {
+                "date": "2025-06-04",
+                "session": "XXX",
+                "statements": 4,
+                "words": 1137
+              },
+              {
+                "date": "2025-06-11",
+                "session": "XXXI",
+                "statements": 4,
+                "words": 739
+              },
+              {
+                "date": "2025-09-17",
+                "session": "XXXVI",
+                "statements": 1,
+                "words": 853
+              },
+              {
+                "date": "2025-10-29",
+                "session": "XXXIX",
+                "statements": 1,
+                "words": 293
+              },
+              {
+                "date": "2025-12-03",
+                "session": "XLII",
+                "statements": 2,
+                "words": 869
+              },
+              {
+                "date": "2025-12-17",
+                "session": "XLIV",
+                "statements": 20,
+                "words": 1021
+              },
+              {
+                "date": "2026-01-21",
+                "session": "XLV",
+                "statements": 6,
+                "words": 1661
+              },
+              {
+                "date": "2026-02-25",
+                "session": "XLVI",
+                "statements": 4,
+                "words": 1037
+              }
+            ]
+          }
         }
       }
     },
@@ -4194,7 +9522,40 @@
             }
           ],
           "has_voting_data": true,
-          "has_activity_data": false
+          "has_activity_data": true,
+          "activity": {
+            "sessions_spoke": 4,
+            "total_statements": 4,
+            "total_words": 186,
+            "avg_statements_per_session": 1.0,
+            "avg_words_per_session": 46,
+            "sessions": [
+              {
+                "date": "2024-08-28",
+                "session": "VIII",
+                "statements": 1,
+                "words": 30
+              },
+              {
+                "date": "2024-10-23",
+                "session": "XII",
+                "statements": 1,
+                "words": 36
+              },
+              {
+                "date": "2024-11-06",
+                "session": "XIII",
+                "statements": 1,
+                "words": 34
+              },
+              {
+                "date": "2025-03-12",
+                "session": "XXI",
+                "statements": 1,
+                "words": 86
+              }
+            ]
+          }
         }
       }
     }

@@ -16,7 +16,7 @@ fi
 source "$VENV_DIR/bin/activate"
 
 # Install deps
-pip install -q requests beautifulsoup4 lxml
+pip install -q requests beautifulsoup4 lxml pdfplumber
 
 # Run scraper, pass through all args
 python3 scripts/scrape_krakow.py --output docs/data.json --profiles docs/profiles.json "$@"

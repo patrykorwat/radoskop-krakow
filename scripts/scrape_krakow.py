@@ -634,6 +634,174 @@ def build_sessions(sessions_raw: list[dict], all_votes: list[dict]) -> list[dict
     return sorted(result, key=lambda x: (x["date"], x["number"]))
 
 
+# ---------------------------------------------------------------------------
+# Step 5: Transcript scraping
+# ---------------------------------------------------------------------------
+
+MATERIALY_URL = f"{BIP_BASE}?dok_id=190813"
+
+
+def scrape_stenogram_links() -> dict[str, str]:
+    """Scrape the Materiały sesyjne page for stenogram PDF links.
+
+    Returns: {session_date: stenogram_doc_id}
+    """
+    soup = fetch(MATERIALY_URL)
+    raw_html = str(soup)
+
+    results = {}
+
+    # Each session block has:
+    #   <strong>DD.MM.YY r. - ROMAN sesja ... </strong>
+    #   <a href="...">Stenogram</a>
+    # Find all <p> or block elements containing session info + stenogram link
+    session_blocks = re.findall(
+        r'(\d{2}\.\d{2}\.\d{2,4})\s+r\.\s*[-–]\s*([IVXLCDM]+)\s+'
+        r'(?:uroczysta\s+)?sesj[aią].*?'
+        r'(?:<a[^>]+href="([^"]*)"[^>]*>Stenogram</a>|Stenogram)',
+        raw_html, re.DOTALL | re.IGNORECASE
+    )
+
+    for date_str, number, steno_href in session_blocks:
+        # Parse date: DD.MM.YY or DD.MM.YYYY
+        parts = date_str.split(".")
+        if len(parts) == 3:
+            day, month = int(parts[0]), int(parts[1])
+            year = int(parts[2])
+            if year < 100:
+                year += 2000
+            date = f"{year}-{month:02d}-{day:02d}"
+
+            if steno_href:
+                # Extract doc_id from URL like ".../n/654709/karta"
+                doc_match = re.search(r'/n/(\d+)/', steno_href)
+                if doc_match:
+                    doc_id = doc_match.group(1)
+                    results[date] = doc_id
+                    print(f"    {number} ({date}): stenogram doc_id={doc_id}")
+
+    print(f"  Znaleziono {len(results)} stenogramów")
+    return results
+
+
+def download_stenogram(doc_id: str, cache_dir: Path) -> Path | None:
+    """Download a stenogram PDF via plik.php.
+
+    URL format: https://www.bip.krakow.pl/plik.php?zid=DOC_ID&wer=0&new=t&mode=shw
+    """
+    filename = f"stenogram_{doc_id}.pdf"
+    path = cache_dir / filename
+
+    if path.exists() and path.stat().st_size > 1000:
+        print(f"    Cache hit: {filename}")
+        return path
+
+    url = f"{BIP_BASE}plik.php?zid={doc_id}&wer=0&new=t&mode=shw"
+    time.sleep(DELAY)
+    print(f"    GET {url}")
+    try:
+        resp = _session.get(url, timeout=60)
+        resp.raise_for_status()
+        # Verify we got a PDF
+        if b"%PDF" not in resp.content[:10]:
+            print(f"    UWAGA: Nie PDF — prawdopodobnie strona HTML ({len(resp.content)} bytes)")
+            return None
+        path.write_bytes(resp.content)
+        print(f"    Zapisano: {filename} ({len(resp.content)} bytes)")
+        return path
+    except Exception as e:
+        print(f"    BŁĄD pobierania: {e}")
+        return None
+
+
+def process_transcripts(stenogram_links: dict[str, str], cache_dir: Path,
+                        profiles_lookup: dict) -> dict[str, list[dict]]:
+    """Download and parse all stenogram PDFs.
+
+    Returns: {session_date: [{"name": ..., "statements": N, "words": M}, ...]}
+    """
+    from parse_stenogram import parse_transcript, build_profiles_lookup
+
+    session_speakers: dict[str, list[dict]] = {}
+
+    for date, doc_id in sorted(stenogram_links.items()):
+        print(f"\n  Stenogram {date} (doc_id={doc_id})")
+        pdf_path = download_stenogram(doc_id, cache_dir)
+        if not pdf_path:
+            continue
+
+        try:
+            speakers = parse_transcript(str(pdf_path), profiles_lookup)
+            total_words = sum(s["words"] for s in speakers)
+            councilor_count = sum(1 for s in speakers if s["name"] in profiles_lookup.get("_exact", {}))
+            print(f"    Sparsowano: {len(speakers)} mówców ({councilor_count} radnych), {total_words} słów")
+            if speakers:
+                session_speakers[date] = speakers
+        except Exception as e:
+            print(f"    BŁĄD parsowania: {e}")
+
+    return session_speakers
+
+
+def integrate_activity(councilors: list[dict], sessions_data: list[dict],
+                       session_speakers: dict[str, list[dict]]) -> None:
+    """Add activity data from transcripts to councilors and sessions."""
+    # Add speakers to session data
+    for sd in sessions_data:
+        sp = session_speakers.get(sd["date"], [])
+        sd["speakers"] = sp
+
+    # Build activity per councilor
+    known_names = {c["name"] for c in councilors}
+    councilor_activity: dict[str, dict] = {}
+
+    for date, speakers in session_speakers.items():
+        session_number = ""
+        for sd in sessions_data:
+            if sd["date"] == date:
+                session_number = sd.get("number", "")
+                break
+
+        for s in speakers:
+            if s["name"] not in known_names:
+                continue
+            if s["name"] not in councilor_activity:
+                councilor_activity[s["name"]] = {
+                    "sessions": [], "total_statements": 0, "total_words": 0
+                }
+            act = councilor_activity[s["name"]]
+            act["sessions"].append({
+                "date": date,
+                "session": session_number,
+                "statements": s["statements"],
+                "words": s["words"],
+            })
+            act["total_statements"] += s["statements"]
+            act["total_words"] += s["words"]
+
+    # Merge activity into councilors
+    has_data = bool(session_speakers)
+    for c in councilors:
+        act = councilor_activity.get(c["name"])
+        if act:
+            sessions_spoke = len(act["sessions"])
+            c["has_activity_data"] = True
+            c["activity"] = {
+                "sessions_spoke": sessions_spoke,
+                "total_statements": act["total_statements"],
+                "total_words": act["total_words"],
+                "avg_statements_per_session": round(act["total_statements"] / sessions_spoke, 1),
+                "avg_words_per_session": round(act["total_words"] / sessions_spoke),
+                "sessions": act["sessions"],
+            }
+        else:
+            c["has_activity_data"] = has_data
+            c["activity"] = None
+
+    spoke_count = sum(1 for c in councilors if c.get("activity"))
+    print(f"  Aktywność: {spoke_count}/{len(councilors)} radnych z wypowiedziami")
+
+
 def merge_stats_to_profiles(profiles_path: str, output: dict):
     """Merge voting stats from data.json councilors into profiles.json."""
     path = Path(profiles_path)
@@ -668,7 +836,11 @@ def merge_stats_to_profiles(profiles_path: str, output: dict):
             if not entry.get("club") and c.get("club"):
                 entry["club"] = c["club"]
             entry["has_voting_data"] = True
-            entry["has_activity_data"] = False
+            entry["has_activity_data"] = c.get("has_activity_data", False)
+            if c.get("activity"):
+                entry["activity"] = c["activity"]
+            elif "activity" in entry:
+                del entry["activity"]
             updated += 1
 
     with open(path, "w", encoding="utf-8") as f:
@@ -688,6 +860,9 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Tylko lista sesji, bez głosowań")
     parser.add_argument("--profiles", default="docs/profiles.json", help="Plik profiles.json")
     parser.add_argument("--explore", action="store_true", help="Pobierz 1 sesję i pokaż strukturę")
+    parser.add_argument("--transcripts", action="store_true", help="Pobierz i parsuj stenogramy sesji")
+    parser.add_argument("--only-transcripts", action="store_true",
+                        help="Tylko stenogramy (wymaga istniejącego data.json)")
     args = parser.parse_args()
 
     global DELAY
@@ -695,12 +870,56 @@ def main():
 
     print("=== Radoskop Scraper: Rada Miasta Krakowa (BIP) ===")
     print(f"Backend: requests + BeautifulSoup")
+    if args.transcripts or args.only_transcripts:
+        print("Tryb: z transkrypcjami stenogramów")
     print()
 
     init_session()
 
+    # Handle --only-transcripts: load existing data.json, add transcripts, save
+    if args.only_transcripts:
+        out_path = Path(args.output)
+        if not out_path.exists():
+            print(f"BŁĄD: --only-transcripts wymaga istniejącego {args.output}")
+            sys.exit(1)
+
+        with open(out_path, encoding="utf-8") as f:
+            existing = json.load(f)
+
+        print("[1/2] Pobieranie linków do stenogramów...")
+        steno_links = scrape_stenogram_links()
+
+        # Build profiles lookup for name resolution
+        from parse_stenogram import build_profiles_lookup
+        profiles_path = Path(args.profiles)
+        profiles_lookup = None
+        if profiles_path.exists():
+            with open(profiles_path, encoding="utf-8") as f:
+                profiles_lookup = build_profiles_lookup(json.load(f))
+
+        cache_dir = out_path.parent / "transcript_cache"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+
+        print(f"\n[2/2] Pobieranie i parsowanie stenogramów...")
+        session_speakers = process_transcripts(steno_links, cache_dir, profiles_lookup)
+
+        # Integrate into existing data
+        for kad in existing["kadencje"]:
+            integrate_activity(kad["councilors"], kad["sessions"], session_speakers)
+
+        existing["generated"] = datetime.now().isoformat()
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, ensure_ascii=False, indent=2)
+        print(f"\nGotowe! Zaktualizowano {out_path}")
+
+        # Also merge into profiles
+        merge_stats_to_profiles(args.profiles, existing)
+        return
+
+    total_steps = 4 if (args.transcripts) else 3
+
     # 1. Session list
-    print("[1/3] Pobieranie listy sesji...")
+    print(f"[1/{total_steps}] Pobieranie listy sesji...")
     all_sessions = scrape_session_list()
 
     if not all_sessions:
@@ -733,7 +952,7 @@ def main():
         return
 
     # 2. Fetch votes for each session
-    print(f"\n[2/3] Pobieranie głosowań ({len(all_sessions)} sesji)...")
+    print(f"\n[2/{total_steps}] Pobieranie głosowań ({len(all_sessions)} sesji)...")
     all_votes = []
     seen_pss_ids: set[str] = set()  # Global dedup across sessions
     dupes_skipped = 0
@@ -766,8 +985,27 @@ def main():
         print("UWAGA: Nie znaleziono głosowań.")
         sys.exit(1)
 
-    # 3. Build output
-    print(f"\n[3/3] Budowanie pliku wyjściowego...")
+    # 3. Transcripts (optional)
+    session_speakers: dict[str, list[dict]] = {}
+    if args.transcripts:
+        print(f"\n[3/{total_steps}] Pobieranie stenogramów...")
+        steno_links = scrape_stenogram_links()
+
+        from parse_stenogram import build_profiles_lookup
+        profiles_path = Path(args.profiles)
+        profiles_lookup = None
+        if profiles_path.exists():
+            with open(profiles_path, encoding="utf-8") as f:
+                profiles_lookup = build_profiles_lookup(json.load(f))
+
+        cache_dir = Path(args.output).parent / "transcript_cache"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        session_speakers = process_transcripts(steno_links, cache_dir, profiles_lookup)
+        print(f"  Transkrypcje: {len(session_speakers)}/{len(all_sessions)} sesji")
+
+    # Build output
+    build_step = 4 if args.transcripts else 3
+    print(f"\n[{build_step}/{total_steps}] Budowanie pliku wyjściowego...")
     profiles = load_profiles(args.profiles)
     if profiles:
         print(f"  Załadowano profile: {len(profiles)} radnych")
@@ -783,6 +1021,10 @@ def main():
 
     print(f"  {len(sessions_data)} sesji, {len(all_votes)} głosowań, {len(councilors)} radnych")
     print(f"  Kluby: {dict(club_counts)}")
+
+    # Integrate transcript activity data
+    if session_speakers:
+        integrate_activity(councilors, sessions_data, session_speakers)
 
     kad_output = {
         "id": kid,
