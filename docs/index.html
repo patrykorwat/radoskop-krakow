@@ -383,14 +383,13 @@ async function init() {
     history.replaceState(null, '', decodeURIComponent(sp.get('p')));
   }
   try {
-    const [dataResp, profResp, budgetResp] = await Promise.all([
+    const [dataResp, profResp] = await Promise.all([
       fetch('/data.json'),
-      fetch('/profiles.json'),
-      fetch('/budget.json')
+      fetch('/profiles.json')
     ]);
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
-    window.BUDGET = await budgetResp.json();
+    try { const br = await fetch('/budget.json'); if (br.ok) window.BUDGET = await br.json(); } catch(e) { window.BUDGET = null; }
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
