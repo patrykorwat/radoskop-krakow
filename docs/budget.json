@@ -512,7 +512,24 @@
         "name": "Tramwaj do Górki Narodowej (KST etap III)",
         "amount": 154000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj do Górki Narodowej (KST etap III)",
+          "amount": 154000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Modernizacja torowisk tramwajowych",
+          "amount": 54000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Rozbudowa al. 29 Listopada",
+          "amount": 49000000,
+          "category": "Drogi"
+        }
+      ]
     },
     "2021": {
       "total": 1050000000,
@@ -550,7 +567,24 @@
         "name": "Tramwaj do Górki Narodowej (KST etap III)",
         "amount": 180000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj do Górki Narodowej (KST etap III)",
+          "amount": 205000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Modernizacja torowisk tramwajowych",
+          "amount": 50000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Przebudowa stacji Kraków Swoszowice",
+          "amount": 37000000,
+          "category": "Transport"
+        }
+      ]
     },
     "2022": {
       "total": 1308000000,
@@ -588,7 +622,24 @@
         "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
         "amount": 150000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
+          "amount": 200000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Krakowskie Centrum Muzyki (etap I)",
+          "amount": 120000000,
+          "category": "Kultura"
+        },
+        {
+          "name": "Trasa Wolbromska",
+          "amount": 75000000,
+          "category": "Drogi"
+        }
+      ]
     },
     "2023": {
       "total": 1711000000,
@@ -626,7 +677,24 @@
         "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
         "amount": 200000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
+          "amount": 180000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Stadion im. Henryka Reymana (Igrzyska Europejskie)",
+          "amount": 80000000,
+          "category": "Sport"
+        },
+        {
+          "name": "Tor kajakarstwa górskiego Kolna (Igrzyska Europejskie)",
+          "amount": 40000000,
+          "category": "Sport"
+        }
+      ]
     },
     "2024": {
       "total": 1004000000,
@@ -664,7 +732,24 @@
         "name": "Tramwaj do Mistrzejowic (KST etap IV)",
         "amount": 215000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+          "amount": 200000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Krakowskie Centrum Muzyki (etap II)",
+          "amount": 177000000,
+          "category": "Kultura"
+        },
+        {
+          "name": "Kompleks basenowy Clepardii",
+          "amount": 80000000,
+          "category": "Sport"
+        }
+      ]
     },
     "2025": {
       "total": 1200000000,
@@ -702,7 +787,24 @@
         "name": "Tramwaj do Mistrzejowic (KST etap IV)",
         "amount": 280000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+          "amount": 220000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Pakt dla Krakowskich Osiedli",
+          "amount": 200000000,
+          "category": "Infrastruktura"
+        },
+        {
+          "name": "Krakowskie Centrum Muzyki (etap II)",
+          "amount": 180000000,
+          "category": "Kultura"
+        }
+      ]
     },
     "2026": {
       "total": 1500000000,
@@ -740,7 +842,24 @@
         "name": "Tramwaj do Mistrzejowic (KST etap IV)",
         "amount": 250000000,
         "category": "Transport"
-      }
+      },
+      "top_projects": [
+        {
+          "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+          "amount": 250000000,
+          "category": "Transport"
+        },
+        {
+          "name": "Pakt dla Krakowskich Osiedli",
+          "amount": 200000000,
+          "category": "Infrastruktura"
+        },
+        {
+          "name": "Metro — dokumentacja i badania",
+          "amount": 77000000,
+          "category": "Transport"
+        }
+      ]
     }
   },
   "top_projects": [
