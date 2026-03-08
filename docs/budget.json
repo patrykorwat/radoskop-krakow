@@ -507,7 +507,12 @@
           "name": "Inne",
           "amount": 40000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj do Górki Narodowej (KST etap III)",
+        "amount": 154000000,
+        "category": "Transport"
+      }
     },
     "2021": {
       "total": 1050000000,
@@ -540,7 +545,12 @@
           "name": "Inne",
           "amount": 55000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj do Górki Narodowej (KST etap III)",
+        "amount": 180000000,
+        "category": "Transport"
+      }
     },
     "2022": {
       "total": 1308000000,
@@ -573,7 +583,12 @@
           "name": "Inne",
           "amount": 60000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
+        "amount": 150000000,
+        "category": "Transport"
+      }
     },
     "2023": {
       "total": 1711000000,
@@ -606,7 +621,12 @@
           "name": "Inne",
           "amount": 80000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj KST etap III (Krowodrza Górka — Górka Narodowa)",
+        "amount": 200000000,
+        "category": "Transport"
+      }
     },
     "2024": {
       "total": 1004000000,
@@ -639,7 +659,12 @@
           "name": "Inne",
           "amount": 50000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+        "amount": 215000000,
+        "category": "Transport"
+      }
     },
     "2025": {
       "total": 1200000000,
@@ -672,7 +697,12 @@
           "name": "Inne",
           "amount": 60000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+        "amount": 280000000,
+        "category": "Transport"
+      }
     },
     "2026": {
       "total": 1500000000,
@@ -705,7 +735,12 @@
           "name": "Inne",
           "amount": 80000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj do Mistrzejowic (KST etap IV)",
+        "amount": 250000000,
+        "category": "Transport"
+      }
     }
   },
   "top_projects": [
