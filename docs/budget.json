@@ -707,5 +707,47 @@
         }
       ]
     }
-  }
+  },
+  "top_projects": [
+    {
+      "name": "Tramwaj do Mistrzejowic (KST IV)",
+      "amount": 250000000,
+      "category": "Transport",
+      "status": "W budowie",
+      "year_start": 2022,
+      "year_end": 2026
+    },
+    {
+      "name": "Przygotowanie I linii metra",
+      "amount": 77000000,
+      "category": "Metro",
+      "status": "Projektowanie",
+      "year_start": 2025,
+      "year_end": 2028
+    },
+    {
+      "name": "Wezel przesiadkowy P+R Bronowice",
+      "amount": 65000000,
+      "category": "Transport",
+      "status": "W budowie",
+      "year_start": 2025,
+      "year_end": 2027
+    },
+    {
+      "name": "Przebudowa torowisk (Starowislna, Karmelicka)",
+      "amount": 45000000,
+      "category": "Transport",
+      "status": "Realizacja",
+      "year_start": 2026,
+      "year_end": 2027
+    },
+    {
+      "name": "Przystanek SKA Pradnik Czerwony z P+R",
+      "amount": 40000000,
+      "category": "Transport",
+      "status": "Projektowanie",
+      "year_start": 2026,
+      "year_end": 2028
+    }
+  ]
 }
