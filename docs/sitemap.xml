@@ -6,47 +6,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/budzet/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/agnieszka-letocha/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/agnieszka-paderewska/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/aleksandra-owca/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/aleksandra-witek/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/alicja-szczepanska/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://krakow.radoskop.pl/profil/anna-baldyga/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/bartlomiej-kocurek/</loc>
+    <loc>https://krakow.radoskop.pl/profil/iwona-chamielec/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/michal-ciechowski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/tomasz-daros/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -56,17 +31,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/edward-porebski/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/edyta-nowak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/edyta-sikora/</loc>
+    <loc>https://krakow.radoskop.pl/profil/michal-drewnicki/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -86,6 +51,141 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://krakow.radoskop.pl/profil/lukasz-gibala/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/joanna-handerek/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/marek-hohenauer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/mariusz-kekus/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/bartlomiej-kocurek/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/jakub-kosek/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/malgorzata-kot/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/zbigniew-kozuch/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/renata-kucharska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/tomasz-lesniak/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/agnieszka-letocha/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/lukasz-maslona/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/magdalena-mazurkiewicz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/maciej-michalowski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/piotr-moskala/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/edyta-nowak/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/rafal-nowak/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/aleksandra-owca/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/agnieszka-paderewska/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/wlodzimierz-pietrus/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/renata-pietka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/agnieszka-pogoda-tota/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/edward-porebski/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/malgorzata-potocka/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/edyta-sikora/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/marek-sobieraj/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/profil/michal-starobrat/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://krakow.radoskop.pl/profil/grzegorz-stawowy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -96,97 +196,17 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/iwona-chamielec/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/jakub-kosek/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/joanna-handerek/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://krakow.radoskop.pl/profil/krzysztof-sulowski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/lukasz-gibala/</loc>
+    <loc>https://krakow.radoskop.pl/profil/alicja-szczepanska/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/lukasz-maslona/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/maciej-michalowski/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/maciej-zmuda/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/magdalena-mazurkiewicz/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/malgorzata-kot/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/malgorzata-potocka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/marek-hohenauer/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/marek-sobieraj/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/mariusz-kekus/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/michal-ciechowski/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/michal-drewnicki/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/michal-starobrat/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/piotr-moskala/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/rafal-nowak/</loc>
+    <loc>https://krakow.radoskop.pl/profil/aleksandra-witek/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -196,83 +216,78 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://krakow.radoskop.pl/profil/renata-kucharska/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/renata-pietka/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/tomasz-daros/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/tomasz-lesniak/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/wlodzimierz-pietrus/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://krakow.radoskop.pl/profil/zbigniew-kozuch/</loc>
+    <loc>https://krakow.radoskop.pl/profil/maciej-zmuda/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/viii/ranking/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/viii/radni/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/viii/sesje/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/viii/glosowania/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/viii/podobienstwo/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/kadencja/viii/uchwaly/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/kadencja/viii/interpelacje/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/ix/ranking/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/ix/radni/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/ix/sesje/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/ix/glosowania/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://krakow.radoskop.pl/kadencja/ix/podobienstwo/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/kadencja/ix/uchwaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://krakow.radoskop.pl/kadencja/ix/interpelacje/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
