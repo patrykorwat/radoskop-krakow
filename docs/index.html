@@ -15,30 +15,82 @@
 <meta property="og:url" content="https://krakow.radoskop.pl/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Kraków">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://krakow.radoskop.pl/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Radoskop Kraków — Monitoring głosowań Rady Miasta Krakowa">
 <meta name="twitter:description" content="Otwarte narzędzie monitoringu Rady Miasta Krakowa. Frekwencja, głosowania i aktywność radnych.">
+<meta name="twitter:image" content="https://krakow.radoskop.pl/og-image.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Radoskop Kraków",
-  "description": "Otwarte narzędzie monitoringu Rady Miasta Krakowa. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
-  "url": "https://krakow.radoskop.pl/",
-  "applicationCategory": "GovernmentApplication",
-  "operatingSystem": "Web",
-  "author": {
-    "@type": "Person",
-    "name": "Patryk Orwat"
-  },
-  "about": {
-    "@type": "GovernmentOrganization",
-    "name": "Rada Miasta Krakowa",
-    "url": "https://www.bip.krakow.pl/?bip_id=1&mmi=26458"
-  },
-  "license": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "isAccessibleForFree": true,
-  "inLanguage": "pl"
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Radoskop Kraków",
+      "description": "Radoskop — otwarte narzędzie monitoringu Rady Miasta Krakowa. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
+      "url": "https://krakow.radoskop.pl/",
+      "applicationCategory": "GovernmentApplication",
+      "operatingSystem": "Web",
+      "author": {
+        "@type": "Person",
+        "name": "Patryk Orwat",
+        "url": "https://radoskop.pl/"
+      },
+      "about": {
+        "@type": "GovernmentOrganization",
+        "name": "Rada Miasta Krakowa",
+        "url": "https://www.bip.krakow.pl/?bip_id=1&mmi=26458"
+      },
+      "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "isAccessibleForFree": true,
+      "inLanguage": "pl",
+      "image": "https://krakow.radoskop.pl/og-image.png"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Radoskop Kraków",
+      "url": "https://krakow.radoskop.pl/",
+      "inLanguage": "pl",
+      "publisher": {
+        "@type": "Person",
+        "name": "Patryk Orwat"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Dane glosowan Rady Miasta Krakowa",
+      "description": "Otwarte dane o glosowaniach, frekwencji i aktywnosci radnych Rady Miasta Krakowa.",
+      "url": "https://krakow.radoskop.pl/",
+      "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "creator": {
+        "@type": "Person",
+        "name": "Patryk Orwat"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://krakow.radoskop.pl/data.json"
+        }
+      ],
+      "temporalCoverage": "2024-2029",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Kraków",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Polska"
+        }
+      },
+      "variableMeasured": [
+        "Frekwencja radnych",
+        "Wyniki glosowan imiennych",
+        "Aktywnosc na sesjach"
+      ]
+    }
+  ]
 }
 </script>
 <!-- No analytics configured -->
