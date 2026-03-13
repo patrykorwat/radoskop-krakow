@@ -51,7 +51,7 @@ BASE_URL = "https://www.bip.krakow.pl"
 
 KADENCJE = {
     "IX":   {"sub_dok_id": 192154, "label": "IX kadencja (2024–2029)"},
-    "VIII": {"sub_dok_id": 148412, "label": "VIII kadencja (2018–2023)"},
+    # VIII kadencja (sub_dok_id=148412) — usunięta z BIP, strona przekierowuje na główną
 }
 
 HEADERS = {
@@ -66,20 +66,28 @@ DELAY = 1.0
 # Scraping
 # ---------------------------------------------------------------------------
 
-def fetch_interpelacje_page(session, sub_dok_id, rodzaj="wszystkie", debug=False):
-    """Pobiera stronę ze wszystkimi interpelacjami dla danej kadencji."""
+def fetch_interpelacje_page(session, sub_dok_id, rodzaj="wszystkie",
+                            page_size=5000, offset=0, debug=False):
+    """Pobiera stronę ze wszystkimi interpelacjami dla danej kadencji.
+
+    BIP Kraków paginuje wyniki parametrami:
+      - ileWierszy: ile rekordów na stronę (domyślnie 10 na BIP, tu 5000 żeby pobrać wszystko)
+      - ktory: offset (0-based)
+    """
     url = BASE_URL
     params = {
         "sub_dok_id": sub_dok_id,
         "sub": "interpelacje",
         "co": "shwInterp.php",
         "rodzaj": rodzaj,
+        "ileWierszy": page_size,
+        "ktory": offset,
     }
 
     if debug:
         print(f"  [DEBUG] GET {url} params={params}")
 
-    resp = session.get(url, headers=HEADERS, params=params, timeout=60)
+    resp = session.get(url, headers=HEADERS, params=params, timeout=120)
     resp.raise_for_status()
     return resp.text
 
@@ -299,7 +307,7 @@ def main():
     )
     parser.add_argument(
         "--kadencja", default="IX",
-        help="Kadencja: IX, VIII lub 'all' (domyślnie: IX)"
+        help="Kadencja: IX lub 'all' (domyślnie: IX)"
     )
     parser.add_argument(
         "--debug", action="store_true",
