@@ -1170,8 +1170,6 @@ function showProfile(name) {
       const kadData = RAW.kadencje.find(k => k.id === kid);
       if (kadData) {
         const sessions = [...(kadData.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
-        const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
-        const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
         for (const sess of sessions) {
           const sessionVotes = getSessionVotes(kadData.votes, kadData.sessions, sess);
           if (sessionVotes.length === 0) continue;
@@ -1197,35 +1195,35 @@ function showProfile(name) {
 
     // Render interpelacje and votes in tabbed layout if either exists
     if (hasInterp || hasVotesData) {
-      html += `<div class="section">
-        <div style="display:flex;border-bottom:1px solid var(--border);margin-bottom:12px;gap:0" id="profile-detail-tabs">
-          ${hasInterp ? `<button class="tab active" data-ptab="interp" style="flex:1;padding:8px;text-align:center;border-bottom:2px solid var(--accent);cursor:pointer;font-weight:500">Interpelacje (${showInterpItems.length})</button>` : ''}
-          ${hasVotesData ? `<button class="tab ${!hasInterp ? 'active' : ''}" data-ptab="votes" style="flex:1;padding:8px;text-align:center;border-bottom:2px solid var(--accent);cursor:pointer;font-weight:500;${hasInterp ? 'border-bottom-color:transparent;' : ''}">Głosy na sesjach</button>` : ''}
-        </div>`;
+      html += `<div class="tab-bar" id="profile-detail-tabs" style="margin-bottom:16px">`;
+      if (hasInterp) html += `<button class="tab active" data-ptab="interp">Interpelacje (${showInterpItems.length})</button>`;
+      if (hasVotesData) html += `<button class="tab${hasInterp ? '' : ' active'}" data-ptab="votes">Głosowania (${allPersonVotes.length})</button>`;
+      html += `</div>`;
 
       // Interpelacje tab content
       if (hasInterp) {
         const interpCatCounts = {};
-        showInterpItems.forEach(item => { const cat = item.kategoria || 'inne'; interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
+        showInterpItems.forEach(item => { const cat = categorizeInterpelacja(item.przedmiot); interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
         const interpCatOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
         const interpCount = showInterpItems.filter(i => i.typ === 'interpelacja').length;
         const zapCount = showInterpItems.filter(i => i.typ === 'zapytanie').length;
-        html += `<div id="profile-tab-interp" class="section" style="margin-top:0;padding-top:0;border:none">
+        html += `<div id="profile-tab-interp" class="section">
           <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>
           <div class="filter-bar" id="profile-interp-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
           <div id="profile-interp-container">`;
         showInterpItems.forEach(item => {
-          const key = (item.przedmiot||'').substring(0,80).replace(/'/g, "\\'");
-          const cat = item.kategoria || 'inne';
+          const oCri = (item.cri || '').replace(/'/g, "\\'");
+          const cat = categorizeInterpelacja(item.przedmiot);
           const typBadge = item.typ === 'zapytanie'
-            ? '<span style="background:rgba(37,99,235,0.12);color:#2563eb;padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
+            ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
             : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
-          html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${key}')" style="cursor:pointer;padding:8px 12px">
+          html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
             <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
               ${typBadge}
               ${interpCatPill(cat)}
-              <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
-              ${interpHasAnswer(item) ? '<span style="color:#16a34a;font-size:0.7rem">&#10003;</span>' : ''}
+              <span class="uchwala-numer" style="font-size:0.8rem">${item.cri || ''}</span>
+              <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu || ''}</span>
+              ${interpHasAnswer(item) ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
             </div>
             <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
           </div>`;
@@ -1235,7 +1233,10 @@ function showProfile(name) {
 
       // Votes tab content
       if (hasVotesData) {
-        html += `<div id="profile-tab-votes" class="section" style="margin-top:0;padding-top:0;border:none;${hasInterp ? 'display:none' : ''}">
+        const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
+        const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
+
+        html += `<div id="profile-tab-votes" class="section" style="${hasInterp ? 'display:none' : ''}">
           <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
           <div id="profile-votes-container">`;
 
@@ -1247,8 +1248,6 @@ function showProfile(name) {
           sessGroups[key].votes.push(x);
         });
         const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
-        const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
-        const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
 
         for (const sk of sessKeys) {
           const { sess, votes: pvs } = sessGroups[sk];
@@ -1266,9 +1265,7 @@ function showProfile(name) {
           });
           html += `</tbody></table></div>`;
         }
-        html += `</div></div></div>`;
-      } else {
-        html += `</div>`;
+        html += `</div></div>`;
       }
     }
 
@@ -1286,14 +1283,6 @@ function showProfile(name) {
           const votesEl = document.getElementById('profile-tab-votes');
           if (interpEl) interpEl.style.display = t === 'interp' ? '' : 'none';
           if (votesEl) votesEl.style.display = t === 'votes' ? '' : 'none';
-          // Update tab button styling
-          profTabBar.querySelectorAll('.tab').forEach(b => {
-            if (b.classList.contains('active')) {
-              b.style.borderBottomColor = 'var(--accent)';
-            } else {
-              b.style.borderBottomColor = 'transparent';
-            }
-          });
         };
       });
     }
@@ -1303,7 +1292,7 @@ function showProfile(name) {
     if (profInterpCatBar) {
       let pif = `<button class="session-pill active" data-icat="all">Wszystkie <span class="pill-count">(${showInterpItems.length})</span></button>`;
       const interpCatCounts = {};
-      showInterpItems.forEach(item => { const cat = item.kategoria || 'inne'; interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
+      showInterpItems.forEach(item => { const cat = categorizeInterpelacja(item.przedmiot); interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1; });
       const interpCatOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
       for (const cat of interpCatOrder) {
         if (!interpCatCounts[cat]) continue;
