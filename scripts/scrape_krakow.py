@@ -994,6 +994,18 @@ def main():
 
         from parse_stenogram import build_profiles_lookup
 
+        profiles_path = Path(args.profiles)
+        profiles_lookup = None
+        if profiles_path.exists():
+            with open(profiles_path, encoding="utf-8") as f:
+                profiles_lookup = build_profiles_lookup(json.load(f))
+
+        cache_dir = Path(args.output).parent / "transcript_cache"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        session_speakers = process_transcripts(steno_links, cache_dir, profiles_lookup)
+        print(f"  Transkrypcje: {len(session_speakers)}/{len(all_sessions)} sesji")
+
+
 def compact_named_votes(output):
     """Convert named_votes from string arrays to indexed format for smaller JSON."""
     for kad in output.get("kadencje", []):
@@ -1014,18 +1026,6 @@ def compact_named_votes(output):
             for cat in nv:
                 nv[cat] = sorted(name_to_idx[n] for n in nv[cat] if isinstance(n, str) and n in name_to_idx)
     return output
-
-
-        profiles_path = Path(args.profiles)
-        profiles_lookup = None
-        if profiles_path.exists():
-            with open(profiles_path, encoding="utf-8") as f:
-                profiles_lookup = build_profiles_lookup(json.load(f))
-
-        cache_dir = Path(args.output).parent / "transcript_cache"
-        cache_dir.mkdir(parents=True, exist_ok=True)
-        session_speakers = process_transcripts(steno_links, cache_dir, profiles_lookup)
-        print(f"  Transkrypcje: {len(session_speakers)}/{len(all_sessions)} sesji")
 
     # Build output
     build_step = 4 if args.transcripts else 3
